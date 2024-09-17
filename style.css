@@ -1,0 +1,115 @@
+/* Основные стили для всего сайта */
+body {
+    background-color: #000; /* Чёрный фон */
+    color: #e60000; /* Красный текст */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для заголовка */
+#header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a; /* Тёмно-серый фон для контраста */
+    border-bottom: 2px solid #e60000;
+}
+
+#header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+#header img {
+    border: 3px solid #e60000; /* Красная рамка для фото */
+    border-radius: 10px; /* Скругление углов */
+    margin-top: 10px;
+}
+
+/* Стили для меню навигации */
+#navigation {
+    background-color: #1a1a1a;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navigation ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#navigation ul li a {
+    color: #e60000;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для секций */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Стили для разделов "Про мене", "Практичні роботи", "Лабораторні заняття" */
+h2 {
+    color: #e60000;
+    border-bottom: 2px solid #e60000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #e60000;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для секции Контакти */
+#contacts p {
+    margin: 10px 0;
+}
+
+#contacts a {
+    color: #e60000;
+    text-decoration: none;
+}
+
+#contacts a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для подвала */
+#footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #e60000;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #999;
+}
